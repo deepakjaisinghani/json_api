@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: your-dockerhub-username/json-api:latest
+          tags: deepakjaisinghani/json-api:latest
