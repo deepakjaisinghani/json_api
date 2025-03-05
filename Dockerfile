@@ -1,6 +1,9 @@
 # Use an official Node.js runtime as a parent image
 FROM node:22.14.0-alpine
 
+# Install curl (and any other dependencies you may need)
+RUN apk update && apk add --no-cache curl
+
 # Set the working directory inside the container
 WORKDIR /usr/src/app
 
